@@ -3,7 +3,7 @@
 
 ## Miniconda 
 - **설명**: 파이썬 패키지와 가상환경을 관리하는 도구로, Anaconda의 축소 버전입니다.
-- **특징**: Anaconda 대비 가볍고 필요한 기능만 포함.
+- **특징**: Anaconda 대비 가볍고 필요한 기능만 포함하고 있습니다.
 - **설치**: [Miniconda 설치 가이드](https://docs.anaconda.com/free/miniconda/miniconda-install/) 참조.
 
 ## Anaconda 환경 설치
@@ -27,6 +27,20 @@ pip install tensorflow tf-keras
 - 60,000개의 트레이닝 셋과 10,000개의 테스트 셋으로 구성되어 있습니다.
 - 0에서 1까지의 값을 갖는 고정 크기 이미지 (28x28 픽셀)로 구성되어 있습니다.
 
+
+## 모델 학습 및 평가 코드
+
+### MLP 모델 학습 및 평가 코드
+- `train_mlp_pytorch.py`: PyTorch를 사용한 MLP 모델의 학습 및 평가를 위한 스크립트
+- `train_mlp_tensorflow.py`: TensorFlow를 사용한 MLP 모델의 학습 및 평가를 위한 스크립트
+
+### CNN 모델 학습 및 평가 코드
+- `train_cnn_pytorch.py`: PyTorch를 사용한 CNN 모델의 학습 및 평가를 위한 스크립트
+- `train_cnn_tensorflow.py`: TensorFlow를 사용한 CNN 모델의 학습 및 평가를 위한 스크립트
+
+### Transformer 모델 학습 및 평가 코드
+- `train_transformer_pytorch.py`: PyTorch를 사용한 Transformer 모델의 학습 및 평가를 위한 스크립트
+- `train_transformer_tensorflow.py`: TensorFlow를 사용한 Transformer 모델의 학습 및 평가를 위한 스크립트
 
 
 ## 모델 ONNX 변환 코드
